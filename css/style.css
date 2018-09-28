@@ -14,6 +14,39 @@ a {
     height: 100%;
 }
 .social-image{
-    width: 30px;
-    margin: 15px;
+    width: 100px;
+    margin: 34px
 }
+
+html {
+    background-color:pink;
+    
+
+}
+
+.header{
+    display:flex;
+    justify-content:space-around;
+}
+
+.navbar {
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.gallery {
+    display: flex;
+    justify-content:space-around;
+}
+
+.about {
+  display:flex;
+  justify-content:space-a
