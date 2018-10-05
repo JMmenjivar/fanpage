@@ -11,10 +11,14 @@ a {
 }
 
 .main {
-    height: 100%;
+    display:flex;
+    justify-content:center;
+    height: 40%;
+    width: 100%;
 }
 .social-image{
-    width: 100px;
+    justify-content:space-around;
+    width: 50px;
     margin: 34px
 }
 
@@ -39,6 +43,8 @@ html {
 .footer {
     display: flex;
     justify-content:space-around;
+    width: 100%; 
+    height:100px;
     
 }
 
@@ -49,4 +55,25 @@ html {
 
 .about {
   display:flex;
-  justify-content:space-a
+  justify-content:space-around;
+  
+}
+
+.homeimage {
+    height: 100%;
+}
+.aboutimage {
+    height:100;
+}
+.aboutmain {
+    display: flex;
+    justify-content:space-around;
+}
+
+.leftPane {
+    width:40%;
+}
+
+.rightPane {
+    width:30%;
+}
